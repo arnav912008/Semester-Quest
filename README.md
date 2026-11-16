@@ -33,12 +33,12 @@ Make sure you have Python 3 installed on your system.
 
 Clone or download this repository into a local folder:
 
-Bash
+
 git clone [https://github.com/arnav912008/semester-quest.git](https://github.com/arnav912008/semester-quest.git)
 cd semester-quest
 Run the application from your terminal or command prompt:
 
-Bash
+
 python main.py
 
 
