@@ -1,18 +1,20 @@
 #  Semester Quest: Gamified Student Companion
 
+
 > Turn your college grind into an RPG adventure! Manage classes, slay assignment mini-bosses, conquer exam main bosses, and level up your academic career straight from your terminal.
 
 ---
 
-##  Features
+
+##   Features
 
 - **Gamified Progression**: Earn XP, level up your student title (*from "Fresher Rookie" to "Semester Legend"*), and maintain daily login streaks.
-- **Timetable Management**: Keep track of your weekly classes and check them off as you attend them.
-- **Mini-Bosses (Assignments)**: Treat assignments like boss fights with HP bars that decrease as you complete milestones.
-- **Main Bosses (Exams)**: Study for exams to deal damage to their health pools and clear them before the deadline.
-- **Terminal Control**: Full ability to add, view, and remove classes, assignments, and exams on the fly.
-- **JSON Data Persistence**: Automatically saves your progress locally without the clutter of multiple CSV files.
-- **Modular Architecture**: Cleanly separated into multiple Python files for optimal readability and maintainability.
+- **Timetable Management**:  Keep track of your weekly classes and check them off as you attend them.
+- **Mini-Bosses (Assignments)**:  Treat assignments like boss fights with HP bars that decrease as you complete milestones.
+- **Main Bosses (Exams)**:  Study for exams to deal damage to their health pools and clear them before the deadline.
+- **Terminal Control**:  Full ability to add, view, and remove classes, assignments, and exams on the fly.
+- **JSON Data Persistence**:  Automatically saves your progress locally without the clutter of multiple CSV files.
+- **Modular Architecture**:  Cleanly separated into multiple Python files for optimal readability and maintainability.
 
 ---
 
