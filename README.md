@@ -8,7 +8,7 @@
 
 ##   Features
 
-- **Gamified Progression**: Earn XP, level up your student title (*from "Fresher Rookie" to "Semester Legend"*), and maintain daily login streaks.
+- **Gamified Progression**: Earn XP, level up your student title (*from "Fresher Rookie" to "Semester Legend"*), and maintain daily login streaks
 - **Timetable Management**:  Keep track of your weekly classes and check them off as you attend them.
 - **Mini-Bosses (Assignments)**:  Treat assignments like boss fights with HP bars that decrease as you complete milestones.
 - **Main Bosses (Exams)**:  Study for exams to deal damage to their health pools and clear them before the deadline.
