@@ -1,7 +1,7 @@
 #  Semester Quest: Gamified Student Companion
 
 
-> Turn your college grind into an RPG adventure! Manage classes, slay assignment mini-bosses, conquer exam main bosses, and level up your academic career straight from your terminal.
+> Turn your college grind into an RPG adventure! Manage classes, slay assignment mini-bosses, conquer exam main bosses, and level up your academic career straight from your Terminal.
 
 ---
 
