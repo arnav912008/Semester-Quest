@@ -1,9 +1,9 @@
-# utils.py
+# utils.py - Terminal color formatting and input validation helpers
 import os
 import sys
 from datetime import datetime
 
-os.system("")  # enables ANSI colours in Windows cmd
+os.system("")  # enables ANSI colours in Windows cmd terminal
 try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
@@ -29,7 +29,7 @@ def get_text(prompt):
         text = input(prompt).strip()
         if text != "":
             return text
-        print(RED + "  This cannot be empty." + RESET)
+        print(RED + "This cannot be empty!" + RESET)
 
 def get_date(prompt):
     while True:
@@ -37,7 +37,7 @@ def get_date(prompt):
         try:
             return datetime.strptime(text, "%d-%m-%Y").date()
         except ValueError:
-            print(RED + "  Use the format DD-MM-YYYY (e.g. 15-10-2026)." + RESET)
+            print(RED + "Use the format DD-MM-YYYY (like 15-10-2026)" + RESET)
 
 def get_time(prompt):
     while True:
@@ -45,7 +45,7 @@ def get_time(prompt):
         try:
             return datetime.strptime(text, "%H:%M").strftime("%H:%M")
         except ValueError:
-            print(RED + "  Use 24-hour format HH:MM (e.g. 09:30)." + RESET)
+            print(RED + "Use 24-hour format HH:MM (e.g. 09:30)" + RESET)
 
 def deadline_text(iso_date):
     days_left = (datetime.strptime(iso_date, "%Y-%m-%d").date() - datetime.now().date()).days
